@@ -1,5 +1,6 @@
 // Seleciona os elementos do formulário
 const amount = document.getElementById("amount");
+const expense = document.getElementById("expense")
 
 // Validação de campos no formulário.
 amount.oninput = () => {
